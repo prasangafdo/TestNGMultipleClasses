@@ -2,7 +2,8 @@
 <suite parallel="false" name="Suite">
   <test name="Test">
     <classes>
-      <class name="com.test.TestNG.NewTest"/>
+      <class name="com.test.TestNG.NewTest1"/>
+      <class name = "com.test.TestNG.NewTest2"/> 
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
