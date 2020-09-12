@@ -10,19 +10,19 @@ public class NewTest1 {
 	 *On 2020.09.10
 	 */
 	
-	@Test ()
+	@Test
 	public void mainTestCase() {
 		Assert.assertEquals("test", "test");
 	}
-	@Test (dependsOnMethods= {"mainTestCase"})
+	@Test (priority = 1)
 	public void secondTestCase() {
 		Assert.assertEquals("test", "test");
 	}
-	@Test (dependsOnMethods= {"secondTestCase"})
+	@Test (priority = 2)
 	public void thirdTestCase() {
 		Assert.assertEquals("test", "test");
 	}
-	@Test (dependsOnMethods= {"thirdTestCase"})
+	@Test (priority = 3)
 	public void fourthTestCase() {
 		Assert.assertEquals("test", "test");
 	}

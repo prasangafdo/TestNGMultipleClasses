@@ -1,29 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-09-11T18:31:45 IST" name="Default suite" finished-at="2020-09-11T18:31:45 IST" duration-ms="45">
+  <suite started-at="2020-09-12T10:51:40 IST" name="Suite name here" finished-at="2020-09-12T10:51:40 IST" duration-ms="53">
     <groups>
     </groups>
-    <test started-at="2020-09-11T18:31:45 IST" name="Default test" finished-at="2020-09-11T18:31:45 IST" duration-ms="45">
-      <class name="com.test.TestNG.NewTest2">
-        <test-method signature="mainTestCase()[pri:0, instance:com.test.TestNG.NewTest2@527e5409]" started-at="2020-09-11T18:31:45 IST" name="mainTestCase" finished-at="2020-09-11T18:31:45 IST" duration-ms="9" status="PASS">
+    <test started-at="2020-09-12T10:51:40 IST" name="Test" finished-at="2020-09-12T10:51:40 IST" duration-ms="53">
+      <class name="com.test.TestNG.NewTest1">
+        <test-method signature="mainTestCase()[pri:0, instance:com.test.TestNG.NewTest1@7ea37dbf]" started-at="2020-09-12T10:51:40 IST" name="mainTestCase" finished-at="2020-09-12T10:51:40 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mainTestCase -->
-        <test-method signature="secondTestCase()[pri:1, instance:com.test.TestNG.NewTest2@527e5409]" started-at="2020-09-11T18:31:45 IST" name="secondTestCase" finished-at="2020-09-11T18:31:45 IST" duration-ms="1" status="PASS">
+        <test-method signature="secondTestCase()[pri:1, instance:com.test.TestNG.NewTest1@7ea37dbf]" started-at="2020-09-12T10:51:40 IST" name="secondTestCase" finished-at="2020-09-12T10:51:40 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- secondTestCase -->
-        <test-method signature="thirdTestCase()[pri:2, instance:com.test.TestNG.NewTest2@527e5409]" started-at="2020-09-11T18:31:45 IST" name="thirdTestCase" finished-at="2020-09-11T18:31:45 IST" duration-ms="1" status="PASS">
+        <test-method signature="thirdTestCase()[pri:2, instance:com.test.TestNG.NewTest1@7ea37dbf]" started-at="2020-09-12T10:51:40 IST" name="thirdTestCase" finished-at="2020-09-12T10:51:40 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- thirdTestCase -->
-        <test-method signature="fourthTestCase()[pri:3, instance:com.test.TestNG.NewTest2@527e5409]" started-at="2020-09-11T18:31:45 IST" name="fourthTestCase" finished-at="2020-09-11T18:31:45 IST" duration-ms="1" status="PASS">
+        <test-method signature="fourthTestCase()[pri:3, instance:com.test.TestNG.NewTest1@7ea37dbf]" started-at="2020-09-12T10:51:40 IST" name="fourthTestCase" finished-at="2020-09-12T10:51:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourthTestCase -->
+      </class> <!-- com.test.TestNG.NewTest1 -->
+      <class name="com.test.TestNG.NewTest2">
+        <test-method signature="mainTestCase()[pri:0, instance:com.test.TestNG.NewTest2@4b44655e]" started-at="2020-09-12T10:51:40 IST" name="mainTestCase" finished-at="2020-09-12T10:51:40 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mainTestCase -->
+        <test-method signature="secondTestCase()[pri:1, instance:com.test.TestNG.NewTest2@4b44655e]" started-at="2020-09-12T10:51:40 IST" name="secondTestCase" finished-at="2020-09-12T10:51:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- secondTestCase -->
+        <test-method signature="thirdTestCase()[pri:2, instance:com.test.TestNG.NewTest2@4b44655e]" started-at="2020-09-12T10:51:40 IST" name="thirdTestCase" finished-at="2020-09-12T10:51:40 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- thirdTestCase -->
+        <test-method signature="fourthTestCase()[pri:3, instance:com.test.TestNG.NewTest2@4b44655e]" started-at="2020-09-12T10:51:40 IST" name="fourthTestCase" finished-at="2020-09-12T10:51:40 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- fourthTestCase -->
       </class> <!-- com.test.TestNG.NewTest2 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite name here -->
 </testng-results>
