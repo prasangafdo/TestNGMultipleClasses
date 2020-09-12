@@ -13,17 +13,21 @@ public class NewTest1 {
 	@Test
 	public void mainTestCase() {
 		Assert.assertEquals("test", "test");
+		System.out.println("Test1: mainTestCase");
 	}
 	@Test (priority = 1)
 	public void secondTestCase() {
 		Assert.assertEquals("test", "test");
+		System.out.println("Test1: secondTestCase");
 	}
 	@Test (priority = 2)
 	public void thirdTestCase() {
 		Assert.assertEquals("test", "test");
+		System.out.println("Test1: thirdTestCase");
 	}
 	@Test (priority = 3)
 	public void fourthTestCase() {
 		Assert.assertEquals("test", "test");
+		System.out.println("Test1: fourthTestCase");
 	}
 }
